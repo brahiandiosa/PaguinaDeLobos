@@ -1,4 +1,6 @@
-body {background-color: rgb(44, 167, 60);}
+body {background-color: rgb(44, 93, 167);
+text-align: center
+}
 h1 {color: red;}
 h2 {color: rgb(0, 0, 0);}
 #title {
@@ -11,5 +13,16 @@ h2 {color: rgb(0, 0, 0);}
 }
 a:hover{
     color: chartreuse;
-    font-size: 25px
+    font-size: 30px
+}
+h2{
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 100px
+}
+img:hover{
+    width: 320px
+}
+#torres{
+    text-align: center;
 }
