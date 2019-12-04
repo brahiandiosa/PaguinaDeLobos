@@ -1,4 +1,4 @@
-body {background-color: rgb(84, 76, 199);}
+body {background-color: rgb(44, 167, 60);}
 h1 {color: red;}
 h2 {color: rgb(0, 0, 0);}
 #title {
@@ -8,4 +8,8 @@ h2 {color: rgb(0, 0, 0);}
 #diosa{
     text-align: center;
     color: black;                                             
+}
+a:hover{
+    color: chartreuse;
+    font-size: 25px
 }
