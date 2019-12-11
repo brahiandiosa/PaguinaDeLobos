@@ -1,5 +1,7 @@
-body {background-color: rgb(44, 93, 167);
-text-align: center
+
+body {
+    background-color: rgb(44, 93, 167);
+    text-align: center
 }
 h1 {color: red;}
 h2 {color: rgb(0, 0, 0);}
@@ -23,6 +25,28 @@ h2{
 img:hover{
     width: 320px
 }
+
+img{
+    width: 300px;
+}
+
 #torres{
     text-align: center;
 }
+.cuadro1{
+    width: 10%;
+    height: 10%;
+    border: 3px solid black color;
+    padding: 10%;
+    background-color: aqua;
+    margin: 5%;
+}
+.cuadro2{
+    width: 10%;
+    height: 10%;
+    border: 3px solid black color;
+    padding: 10%;
+    background-color: aqua;
+    margin: 5%;
+}
+
