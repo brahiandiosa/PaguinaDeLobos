@@ -33,20 +33,30 @@ img{
 #torres{
     text-align: center;
 }
-.cuadro1{
-    width: 10%;
-    height: 10%;
-    border: 3px solid black color;
-    padding: 10%;
-    background-color: aqua;
-    margin: 5%;
+
+#miimagen{
+animation-name: mianimacion;
+animation-duration: 3s;
+animation-iteration-count: 5;
+animation-direction: alternate-reverse;
+
 }
-.cuadro2{
-    width: 10%;
-    height: 10%;
-    border: 3px solid black color;
-    padding: 10%;
-    background-color: aqua;
-    margin: 5%;
+
+
+@keyframes mianimacion{
+0%{
+    transform: rotateY(40deg)
 }
+ 
+40%{
+transform: scale3d(2.2,1.3,8.3)
+translate(-140px)
+}
+100%{
+    transform: translate(150px)
+
+}
+
+}
+
 
